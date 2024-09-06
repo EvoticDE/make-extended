@@ -64,10 +64,10 @@ namespace App\Actions;
 
 class ProcessOrderAction
 {
-public function __invoke()
-{
-// Handle the action logic here
-}
+    public function __invoke()
+    {
+        //
+    }
 }
 ```
 
@@ -91,9 +91,9 @@ namespace App\DTOs;
 
 class UserDto
 {
-public function __construct(
-// Add your DTO properties here
-) {}
+   public function __construct(
+    //
+   ) {}
 
     // Add your methods here
 }
