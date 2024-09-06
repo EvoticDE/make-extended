@@ -2,6 +2,7 @@
 
 namespace Evotic\MakeExtended;
 
+use Evotic\MakeExtended\Commands\MakeActionCommand;
 use Evotic\MakeExtended\Commands\MakeDTOCommand;
 use Evotic\MakeExtended\Commands\MakeRepositoryCommand;
 use Evotic\MakeExtended\Commands\MakeServiceCommand;
@@ -20,6 +21,7 @@ class MakeExtendedServiceProvider extends ServiceProvider {
 
         if ($this->app->runningInConsole()) {
             $this->commands([
+                MakeActionCommand::class,
                 MakeServiceCommand::class,
                 MakeRepositoryCommand::class,
                 MakeDTOCommand::class
