@@ -2,7 +2,7 @@
 
 namespace App\Repositories;
 
-class {{ class }}Repository
+class {{ class }}
 {
     public function all()
     {
