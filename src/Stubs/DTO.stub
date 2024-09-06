@@ -1,0 +1,12 @@
+<?php
+
+namespace App\DTOs;
+
+class {{ class }}
+{
+    public function __construct(
+        // Add your DTO properties here
+    ) {}
+
+    // Add your methods here
+}

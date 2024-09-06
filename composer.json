@@ -1,0 +1,30 @@
+{
+    "name": "evotic/make-extended",
+    "description": "An extension to Laravel artisan make commands",
+    "version": "1.0.0",
+    "type": "library",
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^9.0|^10.0|^11.0",
+        "illuminate/console": "^9.0|^10.0|^11.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Evotic\\MakeExtended\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Evotic\\MakeExtended\\MakeExtendedServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "evotic"
+        }
+    ],
+    "minimum-stability": "stable"
+}
