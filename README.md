@@ -20,7 +20,7 @@ To install the **Laravel Make Extended** package, follow these steps:
    Run the following command to install the package via Composer:
 
    ```bash
-   composer require yourvendor/make-extended
+   composer require evotic/make-extended
    ```
 
 2. **Publish Configuration (Optional)**:
